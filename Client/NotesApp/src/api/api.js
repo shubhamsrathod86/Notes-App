@@ -4,9 +4,6 @@ const api = axios.create({
   baseURL: import.meta.env.VITE_BACKEND_URL || 'https://notes-app-45so.onrender.com',
 });
 
-
-const BASE_URL = "http://localhost:3000/note";
-
 // ----------------- LOAD ALL NOTES -----------------
 const fetchNotes = async () => {
   try {
