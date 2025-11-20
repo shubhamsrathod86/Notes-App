@@ -10,7 +10,7 @@ function App() {
   const [isEditing, setIsEditing] = useState(false);
   const [selectedNote, setSelectedNote] = useState(null);
 
-  const BASE_URL = "http://localhost:3000/note";
+  const BASE_URL = "https://notes-app-45so.onrender.com";
 
   const fetchNotes = async () => {
     const res = await fetch(`${BASE_URL}/get-all-notes`);
